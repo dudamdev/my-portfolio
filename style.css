@@ -158,17 +158,19 @@ section h2 {
     }
 
     .figma-container {
-        max-width: fit-content;       
-        margin: 0px auto;
+        position: relative;
+        height: 70vh;
     }
 
     .figma-container > iframe {
-        border-radius: 16px;
-        display: inline-block;
-        max-width: 20rem;
-        min-height: 30rem;
-
-    }
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        min-height: 450px;
+        min-width: 450px;
+     }
 /*  */
 
 .profile-img {

@@ -156,6 +156,16 @@ section h2 {
         row-gap: 32px;
         margin-bottom: 10px;
     }
+
+    .figma {
+        width: fit-content;
+        display: block;
+        margin: auto;
+    }
+
+    .figma > iframe {
+        border-radius: 16px;
+    }
 /*  */
 
 .profile-img {
@@ -213,7 +223,7 @@ ul {
 }
 
 .skills-logos {
-    max-width: 100px;
+    max-width: 5rem;
     
 }
 
@@ -262,6 +272,10 @@ ul {
     flex-flow: column wrap;
     row-gap: 10px;
     align-content: center;
+}
+
+.contact-logos {
+    max-width: 10rem;
 }
 
 #bola {

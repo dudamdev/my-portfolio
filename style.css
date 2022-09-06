@@ -157,14 +157,17 @@ section h2 {
         margin-bottom: 10px;
     }
 
-    .figma {
-        width: fit-content;
-        display: block;
-        margin: auto;
+    .figma-container {
+        max-width: fit-content;       
+        margin: 0px auto;
     }
 
-    .figma > iframe {
+    .figma-container > iframe {
         border-radius: 16px;
+        display: inline-block;
+        max-width: 20rem;
+        min-height: 30rem;
+
     }
 /*  */
 

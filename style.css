@@ -98,7 +98,8 @@ section h2 {
 
 /* Illustrations.html */
 .illustrations {
-    max-width: 100px;
+    max-width: 5rem;
+    padding: 0px 8px;
 }
 
 .illustrations:hover {
@@ -110,8 +111,7 @@ section h2 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    row-gap: 50px;
-    column-gap: 24px;;
+    row-gap: 8px;
     margin-bottom: 10px;
 }
 
@@ -119,7 +119,8 @@ section h2 {
 
 /* Logos.html */
 .logos {
-    max-width: 100px;
+    max-width: 8rem;
+    padding: 0px 8px;
 }
 
 .logos:hover {
@@ -131,8 +132,7 @@ section h2 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    row-gap: 50px;
-    column-gap: 24px;;
+    row-gap: 8px;
     margin-bottom: 10px;
 }
 
@@ -140,7 +140,7 @@ section h2 {
 
 /* Sites.html */
     .sites {
-        max-width: 450px;
+        max-width: 20rem;
         border-radius: 10px;
     }
 
@@ -153,8 +153,7 @@ section h2 {
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
-        row-gap: 50px;
-        column-gap: 24px;;
+        row-gap: 32px;
         margin-bottom: 10px;
     }
 /*  */
@@ -169,7 +168,7 @@ section h2 {
 
 .about-me > p {
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 2em;
     margin: 8px 24px;
     text-indent: 1em;
 }
@@ -185,10 +184,10 @@ strong {
 }
 
 .subjects {
-    max-width: 23.6rem;
-    margin: 16px auto;
+    max-width: 25rem;
+    margin: 24px auto;
     background: var(--cor3);
-    padding: 16px 32px;
+    padding: 16px 24px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px 1px var(--cor3a);
     color: white;
@@ -202,6 +201,7 @@ strong {
 ul {
     list-style: '✔ ';
     list-style-position: inside;
+    line-height: 2em;
     
     
 }
@@ -223,6 +223,7 @@ ul {
 
 .xp-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     column-gap: 16px;
@@ -231,6 +232,8 @@ ul {
 
 .xp-container p {
     text-align: justify;
+    max-width: 30rem;
+    line-height: 1.5em;
 }
 
 .ph-logo {

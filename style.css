@@ -55,6 +55,7 @@ nav {
     margin-top: 24px;
     padding: 8px;
     border-radius: 10px;
+    width: 100vw;
 }
 
 nav > a {
